@@ -35,7 +35,7 @@ export default function TE() {
                     <section className="text-zinc-900 bg-gray-200 body-font pt-16 mt-8">
                         <div className="grid justify-center md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-7 my-10">
                             <Card name={data[0].name} position={data[0].position} image={data[0].img} insta={data[0].insta} linkedin={data[0].linkedin} github={data[0].github} align="top"/>
-                            <Card name={data[1].name} position={data[1].position} image={data[1].img} insta={data[1].insta} linkedin={data[1].linkedin} github={data[1].github} />
+                            <Card name={data[1].name} position={data[1].position} image={data[1].img} insta={data[1].insta} linkedin={data[1].linkedin} github={data[1].github} align="top"/>
                             <Card name={data[2].name} position={data[2].position} image={data[2].img} insta={data[2].insta} linkedin={data[2].linkedin} github={data[2].github} />
                             <Card name={data[3].name} position={data[3].position} image={data[3].img} insta={data[3].insta} linkedin={data[3].linkedin} github={data[3].github} />
                         </div>
